@@ -1,6 +1,6 @@
 <suite name="KeyPressTestSuite">
     <test name="KeyPressTests">
-        <parameter name="key" value="TAB" />
+        <parameter name="key" value="A" />
         <classes>
             <class name="internet.KeyPressTests" />
         </classes>

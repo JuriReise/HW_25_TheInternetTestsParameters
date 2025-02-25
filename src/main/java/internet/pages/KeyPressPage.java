@@ -5,6 +5,7 @@ import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.awt.*;
@@ -38,6 +39,7 @@ public class KeyPressPage extends BasePage {
             }
 
             click(target); // Заходим в инпут
+            target.click(); // Добавляем клик для установки фокуса
             Robot robot = new Robot();
             robot.keyPress(keyCode);
             robot.keyRelease(keyCode);
@@ -48,11 +50,13 @@ public class KeyPressPage extends BasePage {
     }
 
     public KeyPressPage verifyPressedKey(String letter) {
+        wait.until(ExpectedConditions.visibilityOf(result)); // Добавляем ожидание
         shouldHaveText(result, letter.toUpperCase(), 5000);
         return this;
     }
 
-    // ⬇️ Вставляем сразу после verifyPressedKey
+
+    //
     public KeyPressPage verifyKeyPressResult(String expectedKey) {
         // Используем уже готовый метод для проверки
         return verifyPressedKey(expectedKey);

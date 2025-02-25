@@ -1,0 +1,4 @@
+23:39:53.377 [main] WARN  o.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\JAVA\IdeaProjects\AIT-TR-Java-Course-QA-2024\QA_Project\HW_25_TheInternetTestsParameters\src\test\resources\testng-dropdown.xml] otherwise TestNG may fail or not work as expected.
+23:39:53.822 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexPositiveTest]
+23:39:58.872 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+23:40:02.363 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByValuePositiveTest]

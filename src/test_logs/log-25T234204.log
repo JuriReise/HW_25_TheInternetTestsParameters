@@ -1,0 +1,2 @@
+23:42:04.964 [main] WARN  o.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\JAVA\IdeaProjects\AIT-TR-Java-Course-QA-2024\QA_Project\HW_25_TheInternetTestsParameters\src\test\resources\testng-keypress.xml] otherwise TestNG may fail or not work as expected.
+23:42:05.353 [main] INFO  internet.core.TestBase -- Test is started: [keyPressTest]
