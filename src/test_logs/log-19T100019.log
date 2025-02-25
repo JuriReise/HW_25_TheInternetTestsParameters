@@ -1,0 +1,2 @@
+10:00:19.850 [main] INFO  internet.core.TestBase -- Test is started: [switchToIframeByIndexPositiveTest]
+10:00:22.309 [main] INFO  internet.core.TestBase -- Test is PASSED: [switchToIframeByIndexPositiveTest]

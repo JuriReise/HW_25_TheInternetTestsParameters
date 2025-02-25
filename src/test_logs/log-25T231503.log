@@ -1,0 +1,8 @@
+23:15:03.784 [main] WARN  o.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\JAVA\IdeaProjects\AIT-TR-Java-Course-QA-2024\QA_Project\HW_25_TheInternetTestsParameters\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+23:15:04.197 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexPositiveTest]
+23:15:05.859 [main] INFO  i.g.b.wdm.online.Downloader -- Downloading https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win64/chromedriver-win64.zip
+23:15:06.805 [main] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file chromedriver-win64.zip
+23:15:14.342 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+23:15:17.863 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByValuePositiveTest]
+23:15:21.955 [main] INFO  internet.core.TestBase -- Test is started: [keyPressTest]
+23:15:26.010 [main] INFO  internet.core.TestBase -- Test is started: [fileUploadTest]

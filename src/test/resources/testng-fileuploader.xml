@@ -1,0 +1,8 @@
+<suite name="FileUploaderTestSuite">
+    <test name="FileUploaderTests">
+        <parameter name="filePath" value="C:/path/to/another_file.txt" />
+        <classes>
+            <class name="internet.FileUploaderTests" />
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,10 @@
+<suite name="DropDownTestSuite">
+    <test name="DropDownTests">
+        <parameter name="optionByName" value="Option 2" />
+        <parameter name="optionByValue" value="1" />
+        <parameter name="optionByIndex" value="2" />
+        <classes>
+            <class name="internet.DropDownTests" />
+        </classes>
+    </test>
+</suite>

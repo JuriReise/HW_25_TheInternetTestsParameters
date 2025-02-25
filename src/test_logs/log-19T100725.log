@@ -1,0 +1,2 @@
+10:07:25.866 [main] INFO  internet.core.TestBase -- Test is started: [switchToLeftIframeByNamePositiveTest]
+10:07:34.766 [main] ERROR internet.core.TestBase -- Test is FAILED: [switchToLeftIframeByNamePositiveTest], Screenshot: [C:\Users\PORTISHEAD\Desktop\52QA\25\src\test_screenshots\screen-1739956054759.png]

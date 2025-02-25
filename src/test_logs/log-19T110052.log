@@ -1,0 +1,2 @@
+11:00:52.284 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexDefaultPositiveTest]
+11:00:55.473 [main] ERROR internet.core.TestBase -- Test is FAILED: [selectDropdownOptionByIndexDefaultPositiveTest], Screenshot: [C:\Users\PORTISHEAD\Desktop\52QA\25\src\test_screenshots\screen-1739959255467.png]

@@ -1,0 +1,24 @@
+<suite name="AllTestsSuite">
+    <test name="DropDownTests">
+        <parameter name="optionByName" value="Option 1" />
+        <parameter name="optionByValue" value="2" />
+        <parameter name="optionByIndex" value="1" />
+        <classes>
+            <class name="internet.DropDownTests" />
+        </classes>
+    </test>
+
+    <test name="KeyPressTests">
+        <parameter name="key" value="A" />
+        <classes>
+            <class name="internet.KeyPressTests" />
+        </classes>
+    </test>
+
+    <test name="FileUploaderTests">
+        <parameter name="filePath" value="C:/JAVA/Upload.txt" />
+        <classes>
+            <class name="internet.FileUploaderTests" />
+        </classes>
+    </test>
+</suite>

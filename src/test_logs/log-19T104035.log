@@ -1,0 +1,2 @@
+10:40:35.601 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+10:40:38.629 [main] INFO  internet.core.TestBase -- Test is PASSED: [selectDropdownOptionByNamePositiveTest]

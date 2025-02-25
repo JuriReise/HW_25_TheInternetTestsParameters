@@ -1,0 +1,2 @@
+10:01:23.436 [main] INFO  internet.core.TestBase -- Test is started: [iframePositiveTest]
+10:01:25.826 [main] INFO  internet.core.TestBase -- Test is PASSED: [iframePositiveTest]

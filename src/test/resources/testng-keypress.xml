@@ -1,0 +1,8 @@
+<suite name="KeyPressTestSuite">
+    <test name="KeyPressTests">
+        <parameter name="key" value="TAB" />
+        <classes>
+            <class name="internet.KeyPressTests" />
+        </classes>
+    </test>
+</suite>
