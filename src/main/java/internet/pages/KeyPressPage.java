@@ -56,11 +56,12 @@ public class KeyPressPage extends BasePage {
 
 
     public KeyPressPage verifyPressedKey(String letter) {
-        // Ожидаем появления нужного текста
+        wait.until(ExpectedConditions.visibilityOf(result));
         wait.until(ExpectedConditions.textToBePresentInElement(result, letter.toUpperCase()));
-        shouldHaveText(result, letter.toUpperCase(), 5000);
+        shouldHaveText(result, letter.toUpperCase(), 10000);
         return this;
     }
+
 
 
     //
