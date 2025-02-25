@@ -39,15 +39,21 @@ public class KeyPressPage extends BasePage {
             }
 
             click(target); // Заходим в инпут
-            target.click(); // Добавляем клик для установки фокуса
-            Robot robot = new Robot();
-            robot.keyPress(keyCode);
-            robot.keyRelease(keyCode);
+            target.sendKeys(letter); // Пробуем ввести через WebDriver
+            wait.until(ExpectedConditions.attributeToBeNotEmpty(target, "value"));
+
+            // Если не получилось, используем Robot
+            if (target.getAttribute("value").isEmpty()) {
+                Robot robot = new Robot();
+                robot.keyPress(keyCode);
+                robot.keyRelease(keyCode);
+            }
         } catch (AWTException e) {
-            throw new RuntimeException("❌ Ошибка при работе класса Robot: " + e.getMessage(),e);
+            throw new RuntimeException("❌ Ошибка при работе класса Robot: " + e.getMessage(), e);
         }
         return this;
     }
+
 
     public KeyPressPage verifyPressedKey(String letter) {
         // Ожидаем появления нужного текста
@@ -55,7 +61,6 @@ public class KeyPressPage extends BasePage {
         shouldHaveText(result, letter.toUpperCase(), 5000);
         return this;
     }
-
 
 
     //
