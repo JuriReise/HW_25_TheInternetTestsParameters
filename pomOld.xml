@@ -10,11 +10,10 @@
 
     <properties>
         <browser>firefox</browser>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
     <!-- Добавляем репозиторий Maven Central -->
     <repositories>
         <repository>
@@ -26,15 +25,24 @@
     <dependencies>
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
-            <artifactId>selenium-java</artifactId>
-            <version>4.29.0</version>
+            <artifactId>selenium-http-jdk-client</artifactId>
+            <version>4.30.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-devtools-v116</artifactId>
+            <version>4.30.0</version>
+        </dependency>
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>7.11.0</version>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>ch.qos.logback</groupId>-->
+<!--            <artifactId>logback-access</artifactId>-->
+<!--            <version>1.5.16</version>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
@@ -46,7 +54,6 @@
             <version>5.9.2</version>
         </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
@@ -62,7 +69,6 @@
             </plugin>
         </plugins>
     </build>
-
     <profiles>
         <profile>
             <id>dropdown</id>
@@ -116,3 +122,4 @@
         </profile>
     </profiles>
 </project>
+

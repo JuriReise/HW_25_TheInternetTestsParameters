@@ -1,0 +1,8 @@
+12:26:06.314 [main] WARN  o.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\JAVA\IdeaProjects\AIT-TR-Java-Course-QA-2024\QA_Project\HW_25_TheInternetTestsParameters\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+12:26:06.745 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexPositiveTest]
+12:26:08.204 [main] INFO  i.g.b.wdm.online.Downloader -- Downloading https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip
+12:26:09.301 [main] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file geckodriver-v0.36.0-win64.zip
+12:26:19.892 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+12:26:27.950 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByValuePositiveTest]
+12:26:37.113 [main] INFO  internet.core.TestBase -- Test is started: [keyPressTest]
+12:26:46.313 [main] INFO  internet.core.TestBase -- Test is started: [fileUploadTest]

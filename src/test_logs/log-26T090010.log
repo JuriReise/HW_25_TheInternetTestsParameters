@@ -1,0 +1,6 @@
+09:00:11.266 [main] WARN  o.testng.xml.TestNGContentHandler -- It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >" at the top of the suite file [C:\JAVA\IdeaProjects\AIT-TR-Java-Course-QA-2024\QA_Project\HW_25_TheInternetTestsParameters\src\test\resources\testng.xml] otherwise TestNG may fail or not work as expected.
+09:00:11.653 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexPositiveTest]
+09:00:16.355 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+09:00:19.776 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByValuePositiveTest]
+09:00:23.007 [main] INFO  internet.core.TestBase -- Test is started: [keyPressTest]
+09:00:26.905 [main] INFO  internet.core.TestBase -- Test is started: [fileUploadTest]

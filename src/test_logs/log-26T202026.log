@@ -1,0 +1,5 @@
+20:20:27.466 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByIndexPositiveTest]
+20:20:34.525 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByNamePositiveTest]
+20:20:40.321 [main] INFO  internet.core.TestBase -- Test is started: [selectDropdownOptionByValuePositiveTest]
+20:20:46.745 [main] INFO  internet.core.TestBase -- Test is started: [keyPressTest]
+20:20:55.213 [main] INFO  internet.core.TestBase -- Test is started: [fileUploadTest]

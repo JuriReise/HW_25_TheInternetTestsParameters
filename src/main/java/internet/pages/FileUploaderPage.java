@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.awt.*;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
+import java.io.File;
 import java.io.IOException;
 
 import static java.awt.event.KeyEvent.*;
@@ -37,10 +38,13 @@ public class FileUploaderPage extends BasePage {
 
     //
     public FileUploaderPage uploadFile(String filePath) {
+        // Преобразуем относительный путь к файлу в абсолютный
+        String absolutePath = new File(filePath).getAbsolutePath();
         // Используем уже готовый метод для загрузки
-        return chooseFileByChooseFileButton(filePath)
+        return chooseFileByChooseFileButton(absolutePath)
                 .clickOnUploadButton();
     }
+
 
 
 
